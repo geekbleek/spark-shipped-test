@@ -1,0 +1,29 @@
+{
+  "name": "spark-shipped-test",
+  "version": "0.1.0",
+  "description": "Test Cisco Shipped Spark deployment container model",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Cisco",
+    "Tropo",
+    "Spark"
+  ],
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbleeker/spark-shipped-test.git"
+  },
+  "author": "Casey Bleeker",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.69.0",
+    "body-parser": "^1.14.1",
+    "express":"^4.13.3",
+    "node-ciscospark": "marfeder/node-ciscospark"
+  }
+}
